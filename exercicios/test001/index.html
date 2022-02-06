@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens flexiveis</h1>
+    <p>Redimencione seu navegador para alterar as imagens.</p>
+    <picture>
+        <source media="(max-width:700px)" srcset="imagens/carro-350.jpg" type="image/jpg"> <!---->
+        <source media="(max-width:1050px)" srcset="imagens/carro-700.jpg" type="image/jpg">
+        <img src="imagens/carro-1000.jpg" alt="Imagem flexível">
+    </picture>
+</body>
+</html>
